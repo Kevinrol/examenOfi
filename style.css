@@ -56,18 +56,38 @@ nav{
 
   
   .banner{
-    font-size: 6.5vw;
+    width: 100% !important;
+  }
+  .banner p {
+    font-size: 10.5vw !important;
+    width: 100%;
+    border: 2px dashed aliceblue !important;
+    text-align: center;
+  }
+  article{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
   }
 
+
+
+
   .plato{
+    width: 100%;
     font-size: 5vw !important;
     /* background-color: #e82121; */
     background-size: 170vw !important;
     background-position: 30% -20% !important;
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100vw;
     padding: 0 !important;
+    margin-bottom: 20vw;
   }
   .descripcion{
     padding: 2.5vw;
@@ -89,14 +109,15 @@ nav{
     font-size: 8vw !important;
   }
   .plato2{
+    width: 100%;
     flex-wrap: wrap;
     font-size: 5vw !important;
     background-size: 170vw !important;
-    background-position: 30% -50% !important;
+    background-position: 30% -40% !important;
     display: flex;
-    height: 100vw;
+    height: 110vw;
     padding: 0 !important;
-    margin-top: 15vw;
+    margin-bottom: 10vw;
   }
   .descripcion{
     padding: 2.5vw;
@@ -108,7 +129,7 @@ nav{
   .plato2 p {
     text-align: justify;
     background-image: url(img/blob-blue2.svg);
-    background-position: 70% -40%;
+    background-position: 70% -30%;
     background-size: 160vw;
     background-repeat: no-repeat;
     padding: 1.5vw;
@@ -117,14 +138,16 @@ nav{
 
 
   .plato3{
+    width: 100%;
     font-size: 5vw !important;
     /* background-color: #e82121; */
     background-size: 170vw !important;
-    background-position: 30% -50% !important;
+    background-position: 30% -30% !important;
     display: flex;
     flex-direction: column;
-    height: 100vw;
+    height: 110vw;
     padding: 0 !important;
+    margin-bottom: 10vw;
   }
   .descripcion{
     padding: 2.5vw;
@@ -146,11 +169,13 @@ nav{
     width: 130vw !important;
   }
   footer{
+    position: relative;
+    bottom: 10vw;
     font-size: 4vw !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 115% !important;
     height: 20vw !important;
     background-color:aliceblue;
     color: rgb(26, 25, 25);
